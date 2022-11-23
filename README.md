@@ -1,6 +1,7 @@
 # FFmpeg for Mobile
 
-Simple build script FFmpeg library for Mobile Platform
+Simple build script for FFmpeg library for Mobile Platform
+FFmpeg Version 5+
 
  Platform | Build Status
  -------- | ------------
@@ -20,7 +21,15 @@ Simple build script FFmpeg library for Mobile Platform
 # add these lines to your ~/.bash_profile or ~/.profile
 # export ANDROID_SDK=<your sdk path>
 # export ANDROID_NDK=<your ndk path>
-# Run ./init-source.sh to pull FFmpeg source code from Original Git
+# Run ./init-source.sh to pull FFmpeg source from original repository
+```
+##### iOS
+```
+# set up XCode path
+# sudo xcode-select -r
+# sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+# XCODE_DIR=$(xcode-select -print-path)
+# Run ./init-source.sh to pull FFmpeg source from original repository
 ```
 
 ### Build
